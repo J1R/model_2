@@ -1,0 +1,278 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+
+/* header style */
+
+.header {
+    width: 100%;
+    height: 230px;
+    background-color: #dcdcdc;
+}
+.grey_block {
+    width: 100px;
+    height: 100px;
+    background-color: #767676;
+}
+.company {
+    width: 273px;
+    height: 100px;
+}
+
+.number {
+    font-family: 'PT Sans', sans-serif;    
+    font-size: 35px;
+    color: #777777;
+    line-height: 10px;
+}
+
+/* menu stile */
+
+.menu {
+    background-color: #777777;
+    width: 100%;
+    height: 80px;
+    margin: 0 auto;
+    z-index: 5;
+    position: relative;
+
+}
+.menu_ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    width: 195px;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 30px;
+    line-height: 1.2;
+    font-weight: 400;
+    letter-spacing: 0.025em;
+    color: #ffffff;
+    text-decoration: underline;
+}
+.a_1 {
+    background-color: #777777;
+    color: #ffffff;
+    padding: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    display: block;
+    background-color: #777777;
+    border-left: 5px solid #3333FF;
+    text-decoration: none;
+
+}
+.li_1 {
+    display: inline;
+    float: none;
+    display: inline;
+    
+}
+
+
+
+
+/* image style */
+.slider {
+    width: 100%;
+    height: 468px;
+    display: inline-block;
+    vertical-align: middle;
+    z-index: 4;
+    position: relative; 
+}
+
+.image {
+    width: 1248px;
+    height: 468px;
+    margin: 0 auto;
+}
+
+
+/* content style */
+.content {
+    width: 100%;
+    height: 1000px;
+}
+
+.h1_1 {
+    font-family: 'PT Sans', sans-serif;;
+    font-size: 40px;
+    line-height: 46px;
+    font-weight: 700;
+    letter-spacing: 0.025em;
+    color: #ffffff;
+}
+
+.news_cons{
+    font-family: 'PT Sans', sans-serif;;
+    font-size: 14px;
+    line-height: 10px;
+    font-weight: 400;
+    font-style: italic;
+    letter-spacing: 00.025em;
+    color: #ffffff;
+    font-style: normal;
+
+}
+.br_14 {
+    font-family: 'PT Sans', sans-serif;;
+    font-size: 14px;
+}
+.br_15 {
+    line-height: 10px;
+}
+
+.br_a {
+     font-family: 'PT Sans', sans-serif;;
+     font-size: 14px;
+     line-height: 15x;
+     font-weight: 400;
+     font-style: italic;
+     letter-spacing: 00.025em;
+     color: #ffffff;
+     font-style: normal;
+}
+.news {
+    width: 350px;
+    height: 560px;
+    background-color: #767676;
+    
+}
+
+.dc_p {
+    font-family: 'PT Sans', sans-serif;;
+    font-size: 40px;
+    line-height: 22px;
+    font-weight: 400;
+    letter-spacing: 0.025em;
+    color: #767676;
+}
+.company_pp {
+    font-family: 'PT Sans', sans-serif;;
+    line-height: 10px;
+    font-weight: 400;
+    letter-spacing: 0.025em;
+    color: #767676;
+    font-size: 14px;
+}
+
+/* footer style */
+.image_2 {
+    width: 36px;
+    height: 38px;
+}
+
+.footer_1 {
+    width: 100%;
+    height: 260px;
+    background-color: #777777;
+}
+
+.div_footer {
+    color: #ffffff;
+    line-height: 15px;
+}
+
+.li_footer {
+    color: #ffffff;
+    list-style-type: none;
+}
+
+.ul_footer {
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.div_menuf {
+    font-family: 'PT Sans';
+    font-size: 14px;
+    line-height: 26px;
+    font-weight: 400;
+    text-decoration: underline;
+    letter-spacing: 0.025em;
+    color: #ffffff;
+    
+}
+
+.creating {
+    font-family: 'PT Sans';
+    font-size: 14px;
+    line-height: 10px;
+    font-weight: 400;
+    text-decoration: underline;
+    letter-spacing: 0.025em;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+
+/* blocks location */
+
+
+/* header location */
+
+.company {
+
+    float: left;
+    margin-top: 65px;
+    margin-left: 150px;
+}
+
+.number {
+    float: left;
+    margin-top: 45px;
+    margin-left: 1000px;
+}
+/* menu location */
+
+.slider {
+   margin-left: 321px ;
+   margin-top: -30px;
+   
+}
+
+
+/* content location */
+
+.news {
+    padding-left: 30px;
+    padding-top: 1px;
+    float: left;
+    margin-left: 450px;
+    margin-top: 30px;
+}
+ .br_a {
+     padding-left: 190px;
+     padding-top: 40px;
+ }
+
+
+.full_comp {
+    float: left;
+    margin-left: 70px;   
+}
+
+/* footer location */
+
+.div_footer {
+    float: left;
+    margin-left: 370px;
+    margin-top: 42px;
+}
+.div_menuf {
+    float: left;
+    margin-left: 220px;
+    margin-top: 38px ;
+}
+
+.img_footer {
+    float: left;
+    margin-top: 57px;
+    margin-left: 250px;
+}
+
+.creating {
+    float: left;
+    margin-left: 10px;
+    margin-top: 47px;
+}
